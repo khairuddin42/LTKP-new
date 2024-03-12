@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87e776; /* Adjust the color to match the picture */
+    padding: 10px 20px; /* Add padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    position: relative;
+    z-index: 10; /* Make sure navbar stays above the hero-section */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust size as needed */
+    margin-right: 15px;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    color: #333; /* Adjust the color to match the picture */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #666; /* Adjust the color to match the picture */
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #333; /* Darker color on hover */
+  }
+  /* End of Navbar*/
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #e6f7e6; /* Lime green background */
+    
+    
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.container {
+    width: 40%;
+    margin: 20px auto; /* Adjust top margin to create space below the navbar */
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style-type: none; /* Add a bullet to the container */
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #e9e9e9;
+    border-radius: 5px;
+}
+
+.profile-info .details {
+    flex-grow: 1;
+    margin-left: 20px; /* Add some space between profile image and details */
+    padding: 40px; /* Add padding for additional space */
+}
+.profile-info .details-group {
+    display: flex;
+    flex-direction: column; /* Arrange the details vertically within the group */
+}
+
+.profile-info .details-group p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.profile-info .horizontal-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info .horizontal-details p {
+    margin-right: 20px; /* Add space between horizontally displayed details */
+}
+
+.profile-info strong {
+    color: #333;
+}
+
+.profile-picture {
+    width: 150px; /* Set a fixed width for a square shape */
+    height: 150px; /* Set a fixed height for a square shape */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 8px; /* Add rounded corners */
+}
+
+#upload-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#upload-button:hover {
+    background-color: #2980b9;
+}
+
+
+ /* TUITION FEE */
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7e6; /* Lime green background */
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 24px; /* Adjust the value based on your preference */
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #bec2bc; /* White background for the table */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.month-table {
+    width: 80%; /* Adjust the width based on your design */
+    margin: 20px auto; /* Center the table on the page */
+    border-collapse: collapse;
+    border: 2px solid #3498db; /* Border color for the table */
+    border-radius: 10px; /* Rounded corners for the table */
+    overflow: hidden; /* Hide overflowing content outside the rounded corners */
+}
+
+.month-table th, .month-table td {
+    padding: 20px; /* Increase the padding for better spacing */
+    text-align: center;
+    border: 1px solid #3498db; /* Border color for cells */
+}
+
+.month-table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.month-label {
+    display: block;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    /* Add the following styles to change the checkbox color to green */
+    background-color: #4CAF50; /* Green color */
+    border: 1px solid #4CAF50; /* Green border */
+    border-radius: 4px;
+}
+
+/* Style for the checkbox when it is checked */
+input[type="checkbox"]:checked {
+    background-color: #4CAF50; /* Green color */
+    border: 1px solid #4CAF50; /* Green border */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.admin-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logbook-btn-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logbook-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logbook-btn:hover {
+    background-color: #45a049;
+}

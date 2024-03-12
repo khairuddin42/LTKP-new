@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87e776; /* Adjust the color to match the picture */
+    padding: 10px 20px; /* Add padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    position: relative;
+    z-index: 10; /* Make sure navbar stays above the hero-section */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust size as needed */
+    margin-right: 15px;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    color: #333; /* Adjust the color to match the picture */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #666; /* Adjust the color to match the picture */
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #333; /* Darker color on hover */
+  }
+  .navbar-nav .login-button {
+    background: none;
+    border: none;
+    color: #FFF; /* Adjust the color to match your navbar text color */
+    padding: 5px 10px;
+    margin-left: 20px;
+  }
+  
+  .navbar-nav .signup-button {
+    background-color: #4CAF50; /* Teal background */
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-nav .signup-button:hover {
+    background-color: #45a049; /* Darker shade for hover effect */
+  }
+  /* End of Navbar*/
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    background: #005f73; /* A deep teal shade for a professional look */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #003049, #005f73);
+    margin-bottom: 40px;
+   
+}
+
+.hero-section .hero-text h1 {
+    font-size: 3rem; /* Larger font size for emphasis */
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-section .hero-text p {
+    font-size: 1.3rem; /* Slightly larger for readability */
+    max-width: 600px; /* Optimal line length for reading */
+    margin: auto;
+    line-height: 1.8; /* Improved line spacing */
+    opacity: 0.9; /* Slight transparency for a refined look */
+}
+
+/* Adding a subtle shadow to the text for depth */
+.hero-section .hero-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+    .hero-section .hero-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-section .hero-text p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Info Section */
+.info-section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 10px;
+}
+
+.info-box h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Add this to your existing styles.css file */
+
+/* General container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px; /* Padding for small screen adjustments */
+    display: flex;
+    justify-content: space-between; /* This spreads the cards evenly */
+    flex-wrap: wrap; /* Allows for responsive wrapping */
+    
+}
+
+/* Card styling */
+.card {
+    background-color: #3d9db1; /* White background for the cards */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-basis: calc(25% - 20px); /* Decrease the percentage to make cards smaller */
+    margin: 10px; /* Increase margin for more space between cards */
+    margin-top: 100px;
+    
+   
+}
+
+.card img {
+    width: 120px; /* Or your preferred size */
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #dddddd;
+    margin-bottom: 20px;
+}
+
+.card .learn-more {
+    font-size: 0.9rem;
+    color: #005f73; /* Color to match your brand */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-basis: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px;
+    }
+}
+
+/* find a babysitter */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.step-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.step {
+    background-color: #005f73; /* Light grey background for steps */
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%; /* Adjust as necessary */
+}
+
+.step-icon {
+    background-color: #00aaff; /* You can change this if needed */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* White text for the icon circle */
+}
+.step-icon img {
+    max-width: 150%; /* adjust as necessary */
+    max-height: 150%; /* adjust as necessary */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: contain; /* this will ensure the image maintains its aspect ratio */
+}
+
+.step h2 {
+    text-align: center;
+    border-bottom: 1px solid #dddddd; /* Light border for the title underline */
+    padding-bottom: 10px;
+    color: #dddddd; /* Black text for headings */
+}
+
+ul {
+    list-style: disc inside; /* or outside based on your preference */
+    padding-left: 20px; /* Adjust as necessary for alignment */
+}
+
+li {
+    margin-bottom: 10px;
+    color: #dddddd; /* existing style */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00aaff; /* Blue background for button */
+    color: white; /* White text for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* Additional styling for responsiveness and interactivity */
+@media (max-width: 768px) {
+    .step-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .step {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+button:hover {
+    background-color: #0088cc;
+}
+
+
+
+.footer {
+    width: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+  }
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-column h3 {
+    margin-bottom: 40px;
+  }
+  .footer-column a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  .footer-bottom {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+  }
+  .app-stores {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .app-store {
+    margin: 0 10px;
+  }
+  .app-store img {
+    width: 30px; /* Adjust as needed */
+  }
+
+
+  

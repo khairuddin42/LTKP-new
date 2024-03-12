@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87e776; /* Adjust the color to match the picture */
+    padding: 10px 20px; /* Add padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    position: relative;
+    z-index: 10; /* Make sure navbar stays above the hero-section */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust size as needed */
+    margin-right: 15px;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    color: #333; /* Adjust the color to match the picture */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #666; /* Adjust the color to match the picture */
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #333; /* Darker color on hover */
+  }
+  .navbar-nav .login-button {
+    background: none;
+    border: none;
+    color: #FFF; /* Adjust the color to match your navbar text color */
+    padding: 5px 10px;
+    margin-left: 20px;
+  }
+  
+  .navbar-nav .signup-button {
+    background-color: #4CAF50; /* Teal background */
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-nav .signup-button:hover {
+    background-color: #45a049; /* Darker shade for hover effect */
+  }
+  /* End of Navbar*/
+
+  /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    background: #005f73; /* A deep teal shade for a professional look */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #003049, #005f73);
+    margin-bottom: 40px;
+   
+}
+
+.hero-section .hero-text h1 {
+    font-size: 2rem; /* Larger font size for emphasis */
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* Fee */
+.pricing-section {
+    background-color: white; /* Dark background */
+    color: black;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .pricing-section h1, .pricing-section p {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #2c2c2c; /* Slightly lighter than section background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Adjust width as necessary */
+    
+  }
+  
+  .card h2 {
+    color: black; /* Highlight color for titles */
+    margin-bottom: 10px;
+  }
+  
+  .card .price {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .card li {
+    margin-bottom: 10px;
+  }
+  
+  .card li::before {
+    content: '✓';
+    color: #00aaff; /* Highlight color for check marks */
+    margin-right: 5px;
+  }
+  
+  .card button {
+    background-color: #00aaff; /* Matching highlight color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .card button:hover {
+    background-color: #0099cc; /* Slightly darker on hover */
+  }
+  
+  .card.premium {
+    background-color: #E53B51; /* Different background for premium */
+  }
+  
+  .card.premium button {
+    background-color: #0077aa; /* Different button color for premium */
+  }
+  
+  .pricing-section .fair-use {
+    font-size: 0.9rem;
+    margin-top: 40px;
+  }
+  /* Style for the line */
+.card .line {
+  height: 1px;
+  background-color: #000000; /* Line color */
+  margin: 10px 0; /* Adjust margin as needed */
+}
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /* footer */
+.footer {
+  width: 100%;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  margin-top: 80px;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+.footer-column h3 {
+  margin-bottom: 40px;
+}
+.footer-column a {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 5px;
+}
+.footer-column a:hover {
+  text-decoration: underline;
+}
+.footer-bottom {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  
+}
+.app-stores {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.app-store {
+  margin: 0 10px;
+}
+.app-store img {
+  width: 30px; /* Adjust as needed */
+}
+  

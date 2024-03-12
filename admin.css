@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.month-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.month-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.month-label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.month-name {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.checkbox-container {
+    position: relative;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.checkmark {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+input[type="checkbox"]:checked + .checkmark {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.checkmark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+input[type="checkbox"]:checked + .checkmark {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.comment-container {
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px 0;
+}
+
+.comment-details {
+    margin-bottom: 10px;
+}
+
+.comment-details p {
+    margin: 0;
+    color: #495057;
+}
+
+.comment-message {
+    margin-bottom: 20px;
+}
+
+.comment-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #0056b3;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #343a40;
+    color: #fff;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}

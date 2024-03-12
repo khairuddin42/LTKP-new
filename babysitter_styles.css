@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87e776; /* Adjust the color to match the picture */
+    padding: 10px 20px; /* Add padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    position: relative;
+    z-index: 10; /* Make sure navbar stays above the hero-section */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust size as needed */
+    margin-right: 15px;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    color: #333; /* Adjust the color to match the picture */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #666; /* Adjust the color to match the picture */
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #333; /* Darker color on hover */
+  }
+  /* End of Navbar*/
+
+  
+.search-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    position: relative;
+    left: calc(-10%); /* Shifts the card 10% to the left from the center */
+}
+.search-area label {
+    margin-right: 10px; /* Space between label and input */
+    font-weight: bold; /* Makes the text bold */
+    
+}
+
+.search-area input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-area button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.options {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Aqilah */
+.profile-card-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: calc(-10%); /* Shifts the card 10% to the left from the center */
+}
+
+.profile-card {
+    width: 1100px; /* Made it a little bigger */
+    height: 280px; 
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 40px;
+}
+.contact-button {
+    position: absolute; /* Absolute positioning relative to the profile-card */
+    bottom: 30px; /* Positioned 10px from the bottom of the profile-card */
+    right: 30px; /* Positioned 10px from the right of the profile-card */
+    padding: 20px 30px;
+    background-color: #ff6767; /* Adjust the color as needed */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 400px;
+    margin-bottom: 20px;
+}
+
+.contact-button:hover {
+    background-color: #e05a5a; /* A slightly darker shade for hover effect */
+}
+
+.profile-image img {
+    width: 230px; /* Adjust the width as needed */
+    height: 280px; /* Adjust the height to maintain the aspect ratio */
+    border-radius: 10px; /* Adjust the border-radius as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-right: 20px; /* Adds space between the image and the text */
+}
+
+
+.profile-details {
+    padding: 20px;
+    width: 65%; /* Adjusted width */
+}
+
+.profile-status {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.online-status {
+    color: green;
+}
+
+.location {
+    color: #555;
+}
+
+.profile-details h2 {
+    margin-bottom: 10px;
+}
+.rating {
+    color: gold;
+    font-size: 18px; /* You can adjust this size as needed */
+    margin-left: 5px; /* Spacing between the name and the rating */
+}
+
+h2 {
+    display: flex; /* Use flexbox to align items in a row */
+    align-items: center; /* Center align the items vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+}
+.availability span {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #ff6767;
+    border-radius: 4px;
+}
+
+.experience, .about {
+    margin-bottom: 10px;
+}
+
+
+.profile-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+/* Hannah */
+
+.profile-card-container1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: calc(-10%); /* Shifts the card 10% to the left from the center */
+}
+
+.profile-card1 {
+    width: 1100px; /* Made it a little bigger */
+    height: 280px; 
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.profile-image1 img {
+    width: 230px; /* Adjust the width as needed */
+    height: 280px; /* Adjust the height to maintain the aspect ratio */
+    border-radius: 10px; /* Adjust the border-radius as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-right: 20px; /* Adds space between the image and the text */
+}
+
+
+.profile-details1 {
+    padding: 20px;
+    width: 65%; /* Adjusted width */
+}
+
+.profile-status1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.online-status1 {
+    color: green;
+}
+
+.location1 {
+    color: #555;
+}
+
+.profile-details1 h2 {
+    margin-bottom: 10px;
+}
+.rating1 {
+    color: gold;
+    font-size: 18px; /* You can adjust this size as needed */
+    margin-left: 5px; /* Spacing between the name and the rating */
+}
+
+h2 {
+    display: flex; /* Use flexbox to align items in a row */
+    align-items: center; /* Center align the items vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+}
+.availability1 span {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #eee; /* Default color for not available */
+    border-radius: 4px;
+}
+
+.availability1 .available {
+    background-color: #ff6767; /* Color only for available days */
+}
+
+.experience, .about {
+    margin-bottom: 10px;
+}
+
+.profile-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+.profile-card2 {
+    width: 1100px; /* Made it a little bigger */
+    height: 280px; 
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 40px;
+}
+
